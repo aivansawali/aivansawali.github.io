@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Explore Boracay</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" /> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('boracay bcg.img') center/cover no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: #ceece4 ; 
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    }
+
+    .header-text {
+      padding-top: 35vh;
+    }
+ 
+    .about{
+      background-color: #c5e3e8;
+    }
+      .attractions{
+        background-color: #91d7e6;
+      }
+    
+    section {
+      padding: 60px 0;
+    }
+
+    footer {
+      background-color: #004b66;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .attraction-img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+<<!-- Responsive Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">Explore Boracay</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#attractions">Attractions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Header -->
+  <header class="text-center">
+    <div class="container header-text">
+      <h1 class="display-1 fw-bold">Welcome to Boracay</h1>
+      <p class="lead" style="font-size: 55px;">Where paradise meets adventure</p>
+    
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class=" about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="aboutboracay.jpg" class="img-fluid rounded"
+            alt="Boracay beach" />
+        </div>
+        <div class="col-md-6">
+          <h2>About Boracay</h2>
+          <p>
+            Located in the Western Visayas region of the Philippines, Boracay is a small island renowned for its powdery
+            white sands, crystal-clear waters, and vibrant nightlife. It's consistently ranked among the best beach
+            destinations in the world.
+          </p>
+          <p>
+            Whether you're looking to relax or seek adventure, Boracay has something for every traveler.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Attractions Section -->
+  <section id="attractions" class="attractions">
+    <div class="container">
+      <h2 class="text-center mb-5">Top Attractions</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="whitebeach.jpg"
+            class="img-fluid rounded mb-3 attraction-img" alt="White Beach">
+          <h4>White Beach</h4>
+          <p>The heart of Boracay – known for its 4km stretch of soft white sand and calm waters.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="pukashell.jpg"
+            class="img-fluid rounded mb-3 attraction-img" alt="Puka Beach">
+          <h4>Puka Shell Beach</h4>
+          <p>Less crowded and more peaceful, famous for its natural puka shells and turquoise waves.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="willyrock.jpg"
+            class="img-fluid rounded mb-3 attraction-img" alt="Willy's Rock">
+          <h4>Willy's Rock</h4>
+          <p>An iconic volcanic rock formation with a statue of the Virgin Mary – a popular photo spot.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+ <!-- Footer -->
+<footer class="text-white bg-dark pt-4" id="contact">
+  <div class="container text-center">
+    <h5>Contact Us</h5>
+    <p>Email: exploreboracay@gmail.com | Phone: +63 912 345 6789</p>
+
+    <div class="mb-3">
+      <a href="https://facebook.com" target="_blank" class="text-white me-3">
+        <i class="bi bi-facebook"></i> Facebook
+      </a>
+      <a href="https://instagram.com" target="_blank" class="text-white me-3">
+        <i class="bi bi-instagram"></i> Instagram
+      </a>
+      <a href="https://twitter.com" target="_blank" class="text-white">
+        <i class="bi bi-twitter-x"></i> Twitter
+      </a>
+    </div>
+
+    <p class="mb-0">&copy; 2025 Explore Boracay </p>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
